@@ -15,16 +15,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ivan1000.BuscarCep"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/adaptiveicon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ivan1000.BuscarCep"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "247c8f2d-bb05-4ac8-8374-b6007bf41598"
+      }
     }
   }
 }
